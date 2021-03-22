@@ -1,0 +1,23 @@
+div#recipes {
+    background:lightgoldenrodyellow;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+ul.recipes_list li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+ul.recipes_list li:nth-child(odd) {
+    background: #fff;
+}
+ul.recipes_list {
+    padding: 0;
+    list-style: none;
+    height: 100px;
+    overflow: auto;
+}
